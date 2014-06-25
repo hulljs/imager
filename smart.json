@@ -1,0 +1,20 @@
+{
+  "packages": {
+    "houston": {},
+    "jade": {},
+    "autoform": {},
+    "bootstrap3-datetimepicker": {},
+    "packmeteor": {},
+    "easy-search": {},
+    "spreadsheet-to-mongodb": {},
+    "flat-ui-less": {},
+    "accounts-ui-bootstrap-3-blaze": {},
+    "bootstrap-3": {},
+    "roles": {},
+    "npm": {},
+    "pages": {},
+    "filepicker": {},
+    "streams": {},
+    "ngMeteor": {}
+  }
+}
