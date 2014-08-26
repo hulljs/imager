@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+    <head>
+          <title></title>
+          <meta charset="utf-8" />
+ <!-- 
+         <link rel="alternate" href="desktop.html" id="desktop" media="only screen and (touch-enabled: 0)">
+          <link rel="alternate" href="phone.html" id="phone" media="only screen and (max-device-width: 640px)">
+          <link rel="alternate" href="tablet.html" id="tablet" media="only screen and (min-device-width: 641px)">
+          <meta name="viewport" content="width=device-width, user-scalable=no">
+          <link href="css/bootstrap.css" rel="stylesheet">
+          <link href="css/bootstrap-responsive.css" rel="stylesheet">
+          <link href="css/desktop-style.css" rel="stylesheet">
+          <link href="css/kendo.mobile.all.min.css" rel="stylesheet">
+          <style>
+        ul { padding: 0; margin: 0 }
+        ul.device-picker { margin-top: 200px; list-style-type: none; }
+        ul.device-picker li { float: left; margin-right: 10px; }
+          </style>
+          <script src="js/device.js"></script>
+                <script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                ga('create', 'UA-49486908-1', 'americancurrentsee.com');
+                ga('send', 'pageview');
+
+                </script>
+ -->
+        
+        
+</head>
+        <body>
+		
+		<div>
+		<form>
+<!-- 		<input id="pat" name="pat" type="text" placeholder="Patient "> -->
+		<input id="patName" name="patName" type="text" placeholder="Patient Name">
+		<input id="patStreet" name="patStreet" type="text" placeholder="Patient Street">
+		<input id="patCity" name="patCity" type="text" placeholder="Patient City">
+		<input id="patState" name="patState" type="text" placeholder="Patient State">
+<!-- 	<input id="patEvalDt" name="patEvalDt" type="text" placeholder="Patient Eval Date"> -->
+	<input id="patSerProf" name="patSerProf" type="text" placeholder="Patient Series Profile">
+<!-- 	<input id="patInjDt" name="patInjDt" type="text" placeholder="Patient Injury Date"> -->
+<!-- 	<input id="patBodyRL" name="patBodyRL" type="text" placeholder="Patient Side of Injury"> -->
+<!-- 	<input id="patID" name="patID" type="text" placeholder="Patient ID"> -->
+<!-- 	<input id="patDob" name="patDob" type="text" placeholder="Patient DOB"> -->
+<!-- 	<input id="patAge" name="patAge" type="text" placeholder="Patient Age"> -->
+<!-- 	<input id="patGen" name="patGen" type="text" placeholder="Patient Gen"> -->
+<!-- 	<input id="patHeight" name="patHeight" type="text" placeholder="Patient Height Ins"> -->
+<!-- 	<input id="patWeight" name="patWeight" type="text" placeholder="Patient Weight Lbs"> -->
+<!-- 	<input id="patDomHnd" name="patDomHnd" type="text" placeholder="Patient Dominant Hand"> -->
+<!-- 	<input id="patRefDoc" name="pat" type="text" placeholder="Referring Doctor ">	 -->
+	
+	<input type="submit" class="button" id="patBtn">
+		</form>
+		</div>
+		
+		<div>
+		
+		<!-- need to display doctor here -->
+		
+		</div>
+		<br><br><br><br><br>
+<!-- 
+		<div>
+		<form>
+		<input id="drName" name="name" type="text" required="required" placeholder="Doctor"><input type="submit" class="button" id="docBtn">
+		</form>		
+		</div>
+ -->
+<!-- 
+        Account Home Page        <div data-role="view" id="tabstrip-home" data-title="American CurrentSee" style="overflow:auto;">
+                <div class="logo"><img src="img/acs_logo_bk.png" style="margin: -40px 20px !important; width: 96.5% !important;" ></div>
+                        <div id="index-wrapper">
+            <fieldset>
+                                 <p>New Customer? Subscribe</p>
+                                        <input class="button" type="submit" value="Create Free Account" onclick="location.href='#tabstrip-uiinteraction'" style="width: 95% !important;" />
+                                <div>
+                                        <h1 style="font-size: 18px !important; margin: -10px -30px -20px -40px !important;"> Welcome to a new substantive magazine committed to transcending race through delivering the awareness of a culture free of government dependency and opening up the door to self-reliance!</h1>
+                                </div>
+                                <p>Existing Customer? Log In</p>
+                                 <input class="button" type="submit" value="Log In" onclick="location.href='#tabstrip-login'" style="width: 95% !important;" />
+                         <p style="font-size:10px;"><a href="http://www.washingtontimes.com/privacy/">Privacy Policy</a> &nbsp <a data-href="mailto:aceditors@washingtontimes.com?Subject=Log%20In%20Issues%20on%20American%20CurrentSee" target="_blank" href="mailto:aceditors@washingtontimes.com?Subject=Log%20In%20Issues%20on%20American%20Curr$
+
+                         </fieldset>
+                </div>
+                </div>
+                Account Register Page    <div data-role="view" id="tabstrip-uiinteraction" data-title="Register">
+                        <div class="logo"><img src="img/acs_logo_bk.png" style="margin: -40px 20px !important; width: 96.5% !important;" ></div>
+                         <div id="index-wrapper">
+                    <h1 style="text-align: center;">Create your 'FREE' Account</h1>
+            <fieldset>
+                <span id="eSpan" style="display:none;"></span>
+                                                <input id="firstname" name="firstname" type="text" class="textbox" 
+                    validationMessage="<img src='img/error.png' />" placeholder="first..." required><br/>
+                <input id="lastname" name="lastname" type="text" class="textbox" 
+                    validationMessage="<img src='img/error.png' />" placeholder="lastname..." required><br/>
+                                              <label style="padding-left:0px;">Email</label><input id="email" name="email" type="email" class="textbox" validationMessage="<img src='img/error.png' />" required><br/>
+               <label style="text-align:left; padding-left:12px;">Password</label><input id="accountpassword" name="accountpassword" type="password" class="textbox" validationMessage="<img src='img/error.png' />" required><br/>
+               <label style="text-align:left; padding-left:12px;">Confirm Password</label> <input id="confirmpassword" name="confirmpassword" type="password" class="textbox" validationMessage="<img src='img/error.png' />" required><br/>
+                <button class="button" type="submit" id="btnUpdateAccount" style="width: 80% !important; padding-left:10px !important;">Create Account</button>
+         <p style="font-size:10px;"><a href="http://www.washingtontimes.com/privacy/">Privacy Policy</a> &nbsp <a data-href="mailto:aceditors@washingtontimes.com?Subject=Log%20In%20Issues%20on%20American%20CurrentSee" target="_blank" href="mailto:aceditors@washingtontimes.com?Subject=Log%20In%20Issues%20on%20American%20CurrentSee">Log In I$
+        </fieldset>
+        </div>
+    </div>
+        Account Login Page        <div data-role="view" id="tabstrip-login" data-title="Log In">
+                <div class="logo"><img src="img/acs_logo_bk.png" style="margin: -40px 20px !important; width: 96.5% !important;"></div>
+                   <div id="index-wrapper">
+                        <fieldset>
+                        <span id="signinError" style="display:none;">invalid username or password</span>
+                        <label>Email</label><input id="username" name="username" type="email" class="textbox" validationMessage="<img src='img/error.png' />" required><br/>
+                        <label style="text-align:left; padding-left:12px;">Password</label><input id="password" name="password" type="password" class="textbox" validationMessage="<img src='img/error.png' />" required><br/>
+<button class="button" type="submit" id="btnlogin" style="width: 80% !important;">Log In</button>
+                        <button class="button" type="submit" value="Forgot Password" onclick="location.href='http://americancurrentsee.com/register/recovery.html';" style="width: 80% !important; margin-top:20px !important;">Forgot Pasword</button>
+                         <p style="font-size:10px;"><a href="http://www.washingtontimes.com/privacy/">Privacy Policy</a> &nbsp <a data-href="mailto:aceditors@washingtontimes.com?Subject=Log%20In%20Issues%20on%20American%20CurrentSee" target="_blank" href="mailto:aceditors@washingtontimes.com?Subject=Log%20In%20Issues%20on%20American%20CurrentSee">Log In Issue$
+                        </fieldset>
+                   </div>
+    </div>
+        Account Created Page        <div data-role="view" id="accountCreated">
+                <div class="logo"><img src="img/acs_logo_bk.png" style="margin: -40px 20px !important; width: 96.5% !important;"></div>
+                         <div id="index-wrapper">
+                         <h1 style="text-align:center;">Your account has been created!</h1>
+                <h1>Please click the 'Log In' button below.</h1>
+                <button class="button" type="submit" id="gotoLogin" style="width: 80% !important;">Log In</button>
+                 <p style="font-size:10px;"><a href="http://www.washingtontimes.com/privacy/">Privacy Policy</a> &nbsp <a data-href="mailto:aceditors@washingtontimes.com?Subject=Log%20In%20Issues%20on%20American%20CurrentSee" target="_blank" href="mailto:aceditors@washingtontimes.com?Subject=Log%20In%20Issues%20on%20American%20CurrentSee">Log In Issues?</a></$
+        </div>
+ -->
+		<script src="http://www.parsecdn.com/js/parse-1.2.19.min.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/kendo.mobile.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+<!-- 
+<script>
+	Parse.initialize("OgMuUilYj60YVfdJ7qNnHUYitQVDDY1VgWypmpzI", "2I9cog18QztGZj7tA9BU3lefshLfUXwUeUWaim0Z");
+	$("#docBtn").click(function(addDoc){
+		var name = $("#drName").val();
+		var Doctor = Parse.Object.extend("Doctor");
+		var dr = new Doctor();
+	
+			dr.set("name", name);
+			dr.save(null,{
+				success: function(dr) {
+					alert(name + "is awesome!");
+					
+				},
+				error: function(dr, error) {
+					alert("Error: " + error.code + " " + error.message);
+				}})
+		alert("Doctor's name is: " + name);
+	});
+</script>
+ -->
+<script>	
+	Parse.initialize("OgMuUilYj60YVfdJ7qNnHUYitQVDDY1VgWypmpzI", "2I9cog18QztGZj7tA9BU3lefshLfUXwUeUWaim0Z");
+	$("#patBtn").click(function(addPat){
+		
+		var patName = $("#patName").val();
+		var patStreet = $("#patStreet").val();
+		var patCity = $("#patCity").val();
+		var patState = $("#patState").val();
+// 		var patEvalDt = $("#patEvalDt").val();
+		var patSerProf = $("#patSerProf").val();
+// 		var patInjDt = $("#patInjDt").val();
+// 		var patBodyRL = $("#patBodyRL").val();
+// 		var patID = $("#patID").val();
+// 		var patDob = $("#patDob").val();
+// 		var patAge = $("#patAge").val();
+// 		var patGen = $("#patGen").val();
+// 		var patHeight = $("#patHeight").val();
+// 		var patWeight = $("#patWeight").val();
+// 		var patDomHnd = $("#patDomHnd").val();
+// 		var patRefDoc = $("#patRefDoc").val();
+		
+		var patient = Parse.Object.extend("patient");
+		var pat = new patient();
+	
+			pat.set("name", patName);
+			pat.set("address", patStreet);
+			pat.set("city", patCity);
+			pat.set("state", patState);
+			
+// 			pat.set("eval_date", patEvalDt);
+			pat.set("seriesProfile", patSerProf);
+// 			pat.set("injury_date", patInjDt);
+// 			pat.set("body_side", patBodyRL);
+// 			pat.set("ID", patID);
+// 			pat.set("dob", patDob);
+// 			pat.set("age", patAge);
+// 			pat.set("gender", patGen);
+// 			pat.set("height", patHeight);
+// 			pat.set("weight", patWeight);
+// 			pat.set("dom_hand", patDomHnd);
+// 			pat.set("refer_by", patRefDoc);			
+						
+			pat.save(null,{
+				success: function(pat) {
+					alert(patName + "is awesome!");
+					
+				},
+				error: function(pat, error) {
+					alert("Error: " + error.code + " " + error.message);
+				}})
+		alert("Patient's name is: " + patName);
+	});	
+
+
+</script>
+
+
+    </body>
+    
+</html>
